@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    height: 48px;
+    width: 56px;
+    border-radius:40px; 
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 4px;
+
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+#navbar::before{
+    content: "";
+    background-color: black;
+    position:absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+ul{
+    display: flex;
+    
+}
+.list{
+    margin: 10px;
+    list-style: none ;
+font-size: 1.3rem;
+}
+
+.list a{
+    color:white;
+    display: block;
+    padding:4px 14px;
+    text-decoration: none;
+    border-radius: 30px;
+    font-family: 'Bree Serif', serif;
+}
+.list a:hover{
+    color: black;
+    background-color: white;
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    height: 495px;
+    justify-content: center;
+    align-items: center;
+
+}
+#home::before{
+    content: "";
+    background: url(b7.jpg) no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.87;
+
+}
+#home h1{
+    padding: 12px;
+    text-align: center;
+    font-size: 3.2rem;
+    color: black;
+    font-family: 'Bree Serif', serif;
+}
+#home p{
+    text-align: center;
+    font-size: 1.6rem;
+    color: black;
+    font-family: 'Bree Serif', serif;
+}
+#home button{
+    padding: 7px;
+    background-color: brown;
+    font-size: 1.3rem;
+    color: white;
+    border: 2px solid;
+    border-radius: 10px;
+    font-family: 'Bree Serif', serif;
+
+}
+#home button:hover{
+    background-color: blue;
+    color: chartreuse;
+    
+}
+.services{
+    display: flex;
+    
+}
+.harry{
+    padding: 12px;
+    text-align: center;
+    font-size: 3.2rem;
+    color: black;
+    display: block;
+    font-family: 'Bree Serif', serif;
+
+}
+
+.ss{
+    text-align: center;
+    justify-content: center;
+    display: block;
+    margin: auto;
+    margin-top: 112px;
+    font-size: 3.2rem;
+
+}
+.box img{
+    display: block;
+    margin: auto;
+}
+.box{
+    border: 2px solid brown;
+    padding: 4px;
+    max-width: 35%;
+    margin: 10px;
+    background-color: rgb(226, 226, 226);
+    border-radius:10px;
+}
+.box p{
+    display: block;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+}
+#clients{
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+#clients::before{
+    background:url(pizza.jpg) center center/cover;
+    opacity: 0.7;
+    height: 100%;
+    width:100%;
+    z-index: -1;
+
+
+
+}
+
+#clients img{
+background: transparent;
+height: 100px;
+padding: 34px;
+margin: 20px;
+width: 112px;
+
+}
+footer{
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 29px;
+    font-size: 1.6rem;
+}
